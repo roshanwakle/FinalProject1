@@ -14,7 +14,7 @@ function BtnRender({product, deleteProduct}) {
                 isAdmin ? 
                 <>
                     <Link id="btn_buy" to="#!" 
-                    onClick={() =>deleteProduct(product._id, product.images.public_id)}>
+                    onClick={() =>deleteProduct(product._id)}>
                         Delete
                     </Link>
                     <Link id="btn_view" to={`/edit_product/${product._id}`}>
